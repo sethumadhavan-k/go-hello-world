@@ -1,0 +1,13 @@
+
+# how to go run
+
+```bash
+go get
+```
+
+```bash
+go run main.go
+```
+
+application can access from localhost:9009
+
