@@ -1,13 +1,20 @@
+Prerequisites
+Golang:  for local development
+Docker: For building images
+ 
+ 
+Instruction to run the application
+ 
+# Fetch dependencies
+go get 
+ 
+#  Running  application
+go run main.go 
 
-# how to go run
 
-```bash
-go get
-```
-
-```bash
-go run main.go
-```
-
-application can access from localhost:9009
-
+Task
+    1. Clone the git repository
+    2. Create a dockerfile for building the image
+    3. Build and push into your docker hub repository with v1 tag
+    4. Add additional route ‘/name’ which will return your name as response
+    5. Build and push into your docker hub repository with v2 tag
