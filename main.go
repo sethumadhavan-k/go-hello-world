@@ -21,7 +21,7 @@ func main() {
 
 	router := gin.Default()
 	router.GET("/", handler)
-	router.GET("/", printName)
+	router.GET("/name", printName)
 
 	fmt.Println("Go REST service started...")
 	router.Run("0.0.0.0:9009")
