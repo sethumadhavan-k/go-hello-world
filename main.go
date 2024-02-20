@@ -7,7 +7,7 @@ import (
 )
 
 func handler(ctx *gin.Context) {
-	ctx.JSON(http.StatusOK, "Hello World")
+	ctx.JSON(http.StatusOK, "Hello World !!!!")
 }
 
 func main() {
